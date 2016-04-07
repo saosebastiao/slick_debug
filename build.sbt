@@ -15,3 +15,5 @@ libraryDependencies ++= List(
   "org.postgresql" % "postgresql" % "9.4.1208",
   "org.json4s" %% "json4s-jackson" % "3.3.0"
 )
+
+EclipseKeys.createSrc := EclipseCreateSrc.Default + EclipseCreateSrc.Resource
